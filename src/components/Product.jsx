@@ -1,5 +1,11 @@
 import ProductImage from "../../public/images/pana.png";
 import BranImage from "../../public/images/image1.png";
+import Logo1 from "../../public/images/Logo1.png";
+import Logo2 from "../../public/images/Logo2.png";
+import Logo3 from "../../public/images/Logo3.png";
+import Logo4 from "../../public/images/Logo4.png";
+import Logo5 from "../../public/images/Logo5.png";
+import Logo6 from "../../public/images/Logo6.png";
 
 const Product = () => {
   return (
@@ -65,42 +71,42 @@ const Product = () => {
                 <img
                   data-aos="zoom-in"
                   data-aos-delay="150"
-                  src="public/images/Logo1.png"
+                  src={Logo1}
                   alt="01"
                   className="cursor-pointer"
                 />
                 <img
                   data-aos="zoom-in"
                   data-aos-delay="200"
-                  src="public/images/Logo2.png"
+                  src={Logo2}
                   alt="02"
                   className="cursor-pointer"
                 />
                 <img
                   data-aos="zoom-in"
                   data-aos-delay="250"
-                  src="public/images/Logo3.png"
+                  src={Logo3}
                   alt="03"
                   className="cursor-pointer"
                 />
                 <img
                   data-aos="zoom-in"
                   data-aos-delay="300"
-                  src="public/images/Logo4.png"
+                  src={Logo4}
                   alt="04"
                   className="cursor-pointer"
                 />
                 <img
                   data-aos="zoom-in"
                   data-aos-delay="350"
-                  src="public/images/Logo5.png"
+                  src={Logo5}
                   alt="05"
                   className="cursor-pointer"
                 />
                 <img
                   data-aos="zoom-in"
                   data-aos-delay="400"
-                  src="public/images/Logo6.png"
+                  src={Logo6}
                   alt="06"
                   className="cursor-pointer"
                 />

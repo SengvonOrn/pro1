@@ -1,7 +1,8 @@
 import React from "react";
 import { Footer as Footer } from "flowbite-react";
 import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
-const Compnaylogo = "../../public/images/Icon.png";
+import Compnaylogo from "../../public/images/Icon.png";
+
 const CustomFooter = () => {
   return (
     <Footer>

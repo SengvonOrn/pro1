@@ -1,4 +1,8 @@
 import aboutImage from "../../public/images/Frame.png";
+import icon1 from "../../public/images/Icon1.png";
+import icon2 from "../../public/images/Icon2.png";
+import icon3 from "../../public/images/Icon3.png";
+import icon4 from "../../public/images/Icon4.png";
 const About = () => {
   return (
     <div>
@@ -52,7 +56,7 @@ const About = () => {
                 data-aos-delay="150"
                 className="flex items-center gap-4"
               >
-                <img src="public/images/Icon1.png" alt="1" />
+                <img src={icon1} alt="1" />
                 <div>
                   <h4 className="text-2xl text-neutral-700 font-semibold">
                     2,245,341
@@ -65,7 +69,7 @@ const About = () => {
                 data-aos-delay="200"
                 className="flex items-center gap-4"
               >
-                <img src="public/images/Icon2.png" alt="2" />
+                <img src={icon2} alt="2" />
                 <div>
                   <h4 className="text-2xl text-neutral-700 font-semibold">
                     2,245,341
@@ -80,7 +84,7 @@ const About = () => {
                 data-aos-delay="250"
                 className="flex items-center gap-4"
               >
-                <img src="public/images/Icon3.png" alt="3" />
+                <img src={icon3} alt="3" />
                 <div>
                   <h4 className="text-2xl text-neutral-700 font-semibold">
                     2,245,341
@@ -93,7 +97,7 @@ const About = () => {
                 data-aos-delay="300"
                 className="flex items-center gap-4"
               >
-                <img src="public/images/Icon4.png" alt="4" />
+                <img src={icon4} alt="4" />
                 <div>
                   <h4 className="text-2xl text-neutral-700 font-semibold">
                     2,245,341

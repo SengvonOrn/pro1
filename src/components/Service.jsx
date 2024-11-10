@@ -1,3 +1,6 @@
+import icon1 from "../../public/images/Icon1.png";
+import icon2 from "../../public/images/Icon2.png";
+import icon3 from "../../public/images/Icon3.png";
 const Serice = () => {
   const services = [
     {
@@ -5,21 +8,21 @@ const Serice = () => {
       title: " Menbership Organization",
       description:
         "Our menbership management software provides full automation of menbership renewal and payments",
-      image: "public/images/Icon1.png",
+      image: icon1,
     },
     {
       id: 2,
       title: " Menbership Organization",
       description:
         "Our menbership management software provides full automation of menbership renewal and payments",
-      image: "public/images/Icon2.png",
+      image: icon2,
     },
     {
       id: 3,
       title: " Menbership Organization",
       description:
         "Our menbership management software provides full automation of menbership renewal and payments",
-      image: "public/images/Icon3.png",
+      image: icon3,
     },
   ];
   return (

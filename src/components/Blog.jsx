@@ -1,19 +1,22 @@
+import image2 from "../../public/images/image2.png";
+import image3 from "../../public/images/image3.png";
+import image4 from "../../public/images/image4.png";
 const Blog = () => {
   const blogs = [
     {
       id: 1,
       title: "Creating Streamlined Safeguarding Processes with OneRen",
-      imag: "public/images/image2.png",
+      imag: image2,
     },
     {
       id: 2,
       title: "Creating Streamlined Safeguarding Processes with OneRen",
-      imag: "public/images/image3.png",
+      imag: image3,
     },
     {
       id: 3,
       title: "Creating Streamlined Safeguarding Processes with OneRen",
-      imag: "public/images/image4.png",
+      imag: image4,
     },
   ];
   return (
