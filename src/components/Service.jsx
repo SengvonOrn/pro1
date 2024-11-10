@@ -1,6 +1,13 @@
 import icon1 from "../../public/images/Icon1.png";
 import icon2 from "../../public/images/Icon2.png";
 import icon3 from "../../public/images/Icon3.png";
+import img1 from "../../public/images/Logo1.png";
+import img2 from "../../public/images/Logo2.png";
+import img3 from "../../public/images/Logo3.png";
+import img4 from "../../public/images/Logo4.png";
+import img5 from "../../public/images/Logo5.png";
+import img6 from "../../public/images/Logo6.png";
+import img7 from "../../public/images/Logo7.png";
 const Serice = () => {
   const services = [
     {
@@ -36,13 +43,13 @@ const Serice = () => {
             We have been working with some Fortune 500+ clients
           </p>
           <div className="my-12 flex flex-wrap justify-between items-center gap-8">
-            <img src="public/images/Logo1.png" alt="logo1" />
-            <img src="public/images/Logo2.png" alt="logo2" />
-            <img src="public/images/Logo3.png" alt="logo3" />
-            <img src="public/images/Logo4.png" alt="logo4" />
-            <img src="public/images/Logo5.png" alt="logo5" />
-            <img src="public/images/Logo6.png" alt="logo6" />
-            <img src="public/images/Logo7.png" alt="logo7" />
+            <img src={img1} alt="logo1" />
+            <img src={img2} alt="logo2" />
+            <img src={img3} alt="logo3" />
+            <img src={img4} alt="logo4" />
+            <img src={img5} alt="logo5" />
+            <img src={img6} alt="logo6" />
+            <img src={img7} alt="logo7" />
           </div>
         </div>
         {/* ====== */}
