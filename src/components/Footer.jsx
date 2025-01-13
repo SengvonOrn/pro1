@@ -21,7 +21,7 @@ const CustomFooter = () => {
               <span className="text-[#263238]">NEXTCENT</span>
             </a>
             <div>
-              <p className="mb-1">Copyright © 2020 Landify UI Kit.</p>
+              <p className="mb-1">Copyright © 2020 sengsv.</p>
               <p>All rights reserved</p>
             </div>
             <div className=" flex space-x-6">
